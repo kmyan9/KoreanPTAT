@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?><tatDef>
+	<SourceLang>en-US</SourceLang>
+	<TargetLang>ko-KR</TargetLang>
+	<name>DAQ_255.0_NG_SW_SW</name>
+	<desc>DAQmx SW to support NG</desc>
+	<ProjectTemplateP4Path>//Localization/SDL Studio/Project templates/NI Default - Prod - Internal.sdltpl</ProjectTemplateP4Path>
+	<ServerAddress>http://nicgroupshare:80</ServerAddress>
+	<OrgPath>/All Languages/Asian Languages/Korean</OrgPath>
+	<TMName>Korean RnD</TMName>
+	<FieldCategory>Meas-SW</FieldCategory>
+	<items>
+<item_dirbased>
+	<active>TRUE</active>
+	<separateChangelist>FALSE</separateChangelist>
+	<name>DAQmx NG</name>
+	<source>
+		<p4Dir>//LocalizationExchange/dictionaries/eng/DAQmx/255.0.0/</p4Dir>
+		<srcDirectEdit>
+			<replaceText replaceWith="&lt;LocalizedStringsDictionary type=&quot;content&quot; source_language=&quot;en-US&quot;>" searchContentFor="&lt;LocalizedStringsDictionary source_language=&quot;en-US&quot;>" subP4Path="Examples_InteractiveConfig/....xml"/>
+			<replaceText replaceWith="&lt;LocalizedStringsDictionary type=&quot;content&quot; source_language=&quot;en-US&quot;>" searchContentFor="&lt;LocalizedStringsDictionary source_language=&quot;en-US&quot;>" subP4Path="Examples_ProgrammaticConfig/....xml"/>
+			<replaceText replaceWith="&lt;LocalizedStringsDictionary type=&quot;content&quot; source_language=&quot;en-US&quot;>" searchContentFor="&lt;LocalizedStringsDictionary source_language=&quot;en-US&quot;>" subP4Path="PreBuiltApps/....xml"/>
+			<replaceText replaceWith="&lt;LocalizedStringsDictionary type=&quot;content&quot; source_language=&quot;en-US&quot;>" searchContentFor="&lt;LocalizedStringsDictionary source_language=&quot;en-US&quot;>" subP4Path="Tutorials/....xml"/>
+			<replaceText replaceWith="&lt;LocalizedStringsDictionary type=&quot;content&quot; source_language=&quot;en-US&quot;>" searchContentFor="&lt;LocalizedStringsDictionary source_language=&quot;en-US&quot;>" subP4Path="Examples_Templates/....xml"/>
+		</srcDirectEdit>
+		<moduleAssignments>
+			<assign module="TRADOS">...</assign>
+			<assign module="TRADOS">....contentdef</assign>
+			<assign module="TRADOS_ResX">....resx</assign>
+		</moduleAssignments>
+	</source>
+	<SDLXliff>
+		<targetP4Dir>//Localization/Prj/Kr/SDLXLIFF/DAQmx/NXG/SW/</targetP4Dir>
+	</SDLXliff>
+	<target>
+		<p4Dir>//LocalizationExchange/dictionaries/kor/DAQmx/255.0.0/</p4Dir>
+	</target>
+</item_dirbased>
+	</items>
+</tatDef>
+
+blablablablablablablablablablablablablabla
+test commit
